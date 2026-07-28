@@ -1,0 +1,10 @@
+description = "Maximum SOUL strictness overlay for OmniFix work"
+instructions = """
+SOUL.md is law. Abort delivery if any of these apply:
+- TODOs, stubs, placeholders, incomplete wiring
+- ARR source paste (Connectivity, AI Improvements, etc.)
+- Mega-system rewrites without explicit director approval
+- Missing coexistence skip for MF/Debugify/ATL ports
+- Docs inventing FeatureUnits not in FeatureUnits.java
+Prefer residual honesty over fake completeness.
+"""

@@ -1,0 +1,26 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.valkyrienportals.mixin",
+    "plugin": "org.omnifix.forge.mixin.OmniFixMixinPlugin",
+    "compatibilityLevel": "JAVA_17",
+    "refmap": "omnifix.refmap.json",
+    "mixins": [
+        "common.MixinEntityDragger",
+        "common.MixinVsCoreChunkTrackerPortalDims",
+        "common.MixinChunkMapCrossDimGuard",
+        "common.MixinChunkManagementUntrackGuard",
+        "common.MixinCreateRaycastHelperShipClip"
+    ],
+    "client": [
+        "client.MixinGameRendererPortalCamera",
+        "client.LevelRendererPrepareCullFrustumInvoker",
+        "client.MixinRenderSectionManagerPortalFog",
+        "client.MixinValkyrienSkiesModShipUnloadGuard",
+        "client.MixinRenderSectionManagerShipDataProbe",
+        "client.MixinMinecraftCrossPortalInteract"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

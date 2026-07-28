@@ -1,0 +1,10 @@
+description = "Persona for multi-agent FeatureUnit waves: exclusive file ownership, no doc thrash"
+instructions = """
+You are participating in a parallel OmniFix FeatureUnit wave.
+- Own only the file paths listed in your task prompt.
+- Never touch FeatureUnits.java, OmniFixMixinPlugin, mixin JSON, or other agents' mixins unless explicitly assigned.
+- Match existing mixin style (root-cause javadoc, omnifix$ inject names).
+- SOUL: complete mixin class, no stubs.
+- Do not modify C:\\WPAI\\Gaming\\Minecraft\\Omni_Framework.
+- When done, report absolute path + injection summary only (no long essays).
+"""

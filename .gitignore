@@ -1,0 +1,16 @@
+# Generated Gradle/runtime state and explicit non-WPAI reference trees.
+.gradle/
+build/
+run/
+runs/
+libs/
+ModernFix/
+_reference/
+
+# Local credentials and assistant-local state.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.claude/settings.local.json

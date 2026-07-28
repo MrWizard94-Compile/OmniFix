@@ -1,0 +1,3 @@
+description = "OmniFix idle entity/BE tick specialist"
+default_capability_mode = "all"
+reasoning_effort = "medium"

@@ -1,0 +1,3 @@
+description = "OmniFix AI goal/sensor throttle specialist"
+default_capability_mode = "all"
+reasoning_effort = "medium"

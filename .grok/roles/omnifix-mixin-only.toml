@@ -1,0 +1,3 @@
+description = "Parallel mixin-only worker (parent pre-wired units)"
+default_capability_mode = "read-write"
+reasoning_effort = "medium"

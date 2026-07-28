@@ -1,0 +1,25 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "org.omnifix.mixin.net",
+    "plugin": "org.omnifix.forge.mixin.OmniFixMixinPlugin",
+    "compatibilityLevel": "JAVA_17",
+    "refmap": "omnifix.refmap.json",
+    "mixins": [
+        "ServerLoginTimeoutMixin",
+        "ReadTimeoutHandlerMixin",
+        "CompressionDecoderSizeMixin",
+        "ServerGamePlayTimeoutMixin",
+        "ClientboundCustomPayloadSizeMixin",
+        "ServerboundCustomPayloadSizeMixin",
+        "ClientboundCustomQuerySizeMixin",
+        "ServerboundCustomQuerySizeMixin",
+        "PacketEncoderSizeMixin",
+        "Varint21FrameSizeMixin",
+        "Varint21LengthFieldPrependerSizeMixin"
+    ],
+    "client": [],
+    "injectors": {
+        "defaultRequire": 0
+    }
+}

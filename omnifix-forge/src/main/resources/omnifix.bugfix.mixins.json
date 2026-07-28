@@ -1,0 +1,50 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "org.omnifix.mixin.bugfix",
+    "plugin": "org.omnifix.forge.mixin.OmniFixMixinPlugin",
+    "compatibilityLevel": "JAVA_17",
+    "refmap": "omnifix.refmap.json",
+    "mixins": [
+        "concurrency.MappedRegistryMixin",
+        "concurrency.ForgeRegistryTagManagerMixin",
+        "concurrency.NamespacedWrapperMixin",
+        "forge_vehicle_packets.ServerGamePacketListenerImplMixin",
+        "removed_dimensions.LevelStorageSourceMixin",
+        "chunk_deadlock.ServerChunkCache_CurrentLoadingMixin",
+        "chunk_deadlock.EntityMixin",
+        "chunk_deadlock.ChunkMapLoadMixin",
+        "paper_chunk_patches.SortedArraySetMixin",
+        "paper_chunk_patches.ChunkMapMixin",
+        "registry_ops_cme.RegistryOpsMemoizedMixin",
+        "unsafe_modded_shape_caches.ShapeCacheRSMixin",
+        "unsafe_modded_shape_caches.ShapeCacheCyclicMixin",
+        "cofh_core_crash.FlagManagerMixin",
+        "ChunkAccessBeThreadMixin",
+        "LevelThreadAccessor"
+    ],
+    "client": [
+        "buffer_builder_leak.RenderBuffersMixin",
+        "buffer_builder_leak.BufferBuilderMixin",
+        "concurrency.ReloadableResourceManagerMixin",
+        "extra_experimental_screen.CreateWorldScreenMixin",
+        "missing_block_entities.LevelChunkMixin",
+        "model_data_manager_cme.ModelDataManagerMixin",
+        "entity_pose_stack.PoseStackAccessor",
+        "entity_pose_stack.LivingEntityRendererMixin",
+        "entity_pose_stack.PlayerRendererMixin",
+        "ender_dragon_leak.EnderDragonRendererMixin",
+        "world_leaks.MinecraftMixin",
+        "world_screen_skipped.WorldSelectionListMixin",
+        "recipe_book_type_desync.RecipeBookSettingsMixin",
+        "ctm_resourceutil_cme.ResourceUtilMixin",
+        "BlockColorsThreadSafetyMixin",
+        "ItemColorsThreadSafetyMixin",
+        "ItemPropertiesThreadSafetyMixin",
+        "LivingEntityRendererLayerThreadMixin",
+        "DebugOverlayClearMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

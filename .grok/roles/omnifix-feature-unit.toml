@@ -1,0 +1,3 @@
+description = "Full OmniFix FeatureUnit implementer (code + wire + SSOT)"
+default_capability_mode = "all"
+reasoning_effort = "high"

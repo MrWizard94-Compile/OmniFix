@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.omnifix.mixin.feature",
+  "plugin": "org.omnifix.forge.mixin.OmniFixMixinPlugin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "omnifix.refmap.json",
+  "mixins": [
+    "ServerFunctionManagerProfilingMixin"
+  ],
+  "client": [
+    "GameDataRegistryProgressMixin",
+    "OmniFixBrandingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
