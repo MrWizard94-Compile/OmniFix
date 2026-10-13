@@ -1,13 +1,13 @@
 # OmniFix Research Master — Forge 1.20.1
 
-**Status:** Multi-pass research complete (P0–P5). Implementation continues under SOUL; living inventory in `SSOT.md` (**367** FeatureUnits as of 2026-07-21).  
+**Status:** Multi-pass research complete (P0–P5). Implementation continues under the pinned WPAI Constitution; living inventory in `SSOT.md` (**367** FeatureUnits as of 2026-07-21).  
 **Atlases:** `CORPUS.md` (entire Minecraft + modding ecosystem problem space, crawl v1) · `ECOSYSTEM_MAP.md` (OmniFix FC/D projection on Forge 1.20.1).  
 Wave-6 hard slices (GPU lifecycle, Oculus×IP, mega dynamic_resources) remain backlog-only.  
 **Survey date:** 2026-07-17 · **Living update:** 2026-07-21  
 **Platform:** Minecraft 1.20.1 · Forge 47.x · Java 17  
-**Mandate:** OmniFix maps and absorbs the **entire** Forge 1.20.1 fix/performance problem space — not pack-local patches. Peer mods are catalogs. SOUL completeness is law. Full-game corpus is broader than OmniFix ship scope.
+**Mandate:** OmniFix maps and absorbs the **entire** Forge 1.20.1 fix/performance problem space — not pack-local patches. Peer mods are catalogs. WPAI Constitution completeness is law. Full-game corpus is broader than OmniFix ship scope.
 
-**Quality bar (SOUL.md):** symptom → root cause → gated complete FeatureUnit → verify. No stubs.
+**Quality bar (pinned WPAI Constitution):** symptom → root cause → gated complete FeatureUnit → verify. No stubs.
 
 ---
 
@@ -552,7 +552,7 @@ VS already has internal compat for: Create, CBC, IP (partial), Sodium/Embeddium,
 - Auto-skipped when ModernFix present.  
 - **Bulk Canary/FerriteCore/MF perf** remains measure-first backlog.
 
-### Wave 6 — Hard graphics / pathfinding — **BACKLOG ONLY (SOUL)**
+### Wave 6 — Hard graphics / pathfinding — **BACKLOG ONLY (Constitution gate)**
 No incomplete Oculus×IP / full ship pathfinding / Starlight code was added. These require dedicated root-cause spikes before any FeatureUnit lands.
 
 ---

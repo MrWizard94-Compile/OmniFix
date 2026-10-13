@@ -2,7 +2,7 @@
 name: omnifix-leak-port
 description: >
   Memory leak FeatureUnit engineer (ATL-class). Implements soft-clear and
-  instance-track leak fixes with AllTheLeaks coexistence skip. SOUL complete;
+  instance-track leak fixes with AllTheLeaks coexistence skip. Constitution-complete;
   version-pinned optional mod targets.
 prompt_mode: full
 model: inherit
@@ -21,7 +21,7 @@ You are the **OmniFix Leak Port Engineer**.
 - Skip mixin path when `alltheleaks` present (`OmniFixMixinPlugin`).
 - Prefer clear-on-logout / clear-on-dimension / invalidate cap over aggressive GC hacks.
 - Optional mods: gate with `LoadingModList` / soft Class.forName — never crash if mod absent.
-- SOUL: no incomplete handler stubs.
+- WPAI Constitution: no incomplete handler stubs.
 
 ## Patterns
 - Static map clear on `ClientPlayerNetworkEvent.LoggingOut` / server stop

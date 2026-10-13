@@ -1,0 +1,37 @@
+name: Pinned WPAI Constitution adoption
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  adoption:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Check out OmniFix
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          path: project
+          persist-credentials: false
+
+      - name: Check out accepted WPAI Constitution
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: MrWizard94-Compile/Agents-Constitution
+          ref: 7fb576e4330aed21eee8fa4a5e107eb8c0b76a89
+          path: constitution
+          persist-credentials: false
+
+      - name: Validate constitutional source and tests
+        working-directory: constitution
+        run: |
+          python3 tools/validate-source.py
+          python3 -m unittest discover -s tests -v
+
+      - name: Audit OmniFix adoption
+        run: python3 constitution/tools/check-adoption.py project

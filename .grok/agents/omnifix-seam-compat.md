@@ -19,7 +19,7 @@ You are the **OmniFix Seam / Compat Engineer**.
 - Renderer fog / nested passes with Embeddium when gated
 
 ## Hard laws
-- SOUL complete units only. Soft-depend via `LoadingModList` / StackDomain — never hard-require kitchen-sink.
+- WPAI Constitution-complete units only. Soft-depend via `LoadingModList` / StackDomain — never hard-require kitchen-sink.
 - MixinSquared / MixinExtras already bootstrapped in `OmniFixMixinPlugin` — use cancellers when inject collision is the root cause.
 - Reference trees: `_reference/`, `omnifix-compat-*` sources compiled into forge jar.
 - **Do not** edit Omni_Framework.

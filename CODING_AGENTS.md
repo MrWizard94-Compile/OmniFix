@@ -4,7 +4,7 @@ Project-specialized Grok agents for Forge 1.20.1 OmniFix work.
 Definitions: `.grok/agents/*.md` · Roles: `.grok/roles/*.toml` · Personas: `.grok/personas/*.toml`  
 Manage in TUI: `/config-agents` (or `/agents`).
 
-**Law:** `SOUL.md` · **Sibling platform (read-only):** `C:\WPAI\Gaming\Minecraft\Omni_Framework`
+**Law:** pinned WPAI Constitution in `AGENTS.md` · **Sibling platform (read-only):** `C:\WPAI\Gaming\Minecraft\Omni_Framework`
 
 ---
 
@@ -19,7 +19,7 @@ Manage in TUI: `/config-agents` (or `/agents`).
 | **omnifix-leak-port** | all | `leak.*` ATL-class soft clear / instance track |
 | **omnifix-docs-sync** | all | SSOT/BACKLOG/CORPUS counts match `FeatureUnits.java` |
 | **omnifix-build-verify** | all | Gradle compile/reobf + minimal compile fixes |
-| **omnifix-soul-review** | read-only | SOUL compliance verdict (PASS / FAIL) |
+| **omnifix-constitution-review** | read-only | Constitution compliance verdict (PASS / FAIL) |
 | **omnifix-ai-throttle** | all | Goal/Sensor AI throttles & interval bumps only |
 | **omnifix-entity-idle** | all | Idle BE/entity tick skips & empty-scan caches |
 | **omnifix-entity-brain** | all | Brain sensors, nested goals (Bee$*), target search volumes |
@@ -33,7 +33,7 @@ Built-ins still available: `general-purpose`, `explore`, `plan`.
 | Persona | When |
 |---|---|
 | `omnifix-parallel-wave` | Multi-agent mixin waves; exclusive ownership |
-| `omnifix-soul-strict` | Maximum anti-stub / anti-ARR strictness |
+| `omnifix-constitution-strict` | Maximum anti-stub / anti-ARR strictness |
 
 ---
 
@@ -45,7 +45,7 @@ Built-ins still available: `general-purpose`, `explore`, `plan`.
 3. N × omnifix-mixin-only → one mixin file each (non-overlapping paths)
 4. omnifix-build-verify  → compile + reobf
 5. omnifix-docs-sync     → SSOT totals
-6. omnifix-soul-review   → optional gate
+6. omnifix-constitution-review → optional gate
 ```
 
 ### Pre-wire template (parent)
@@ -86,7 +86,7 @@ subagent_type: omnifix-feature-unit
 description: Ship beehive empty skip
 prompt: |
   Root-cause idle BeehiveBlockEntity.serverTick and ship complete FeatureUnit
-  following SOUL + SSOT update. Build must pass.
+  following the pinned WPAI Constitution and SSOT update. Build must pass.
 ```
 
 ---
@@ -95,7 +95,7 @@ prompt: |
 
 | Doc | Role |
 |---|---|
-| `SOUL.md` | Constitution |
+| `AGENTS.md` | Project entry and pinned canonical Constitution |
 | `SSOT.md` | Architecture + shipped inventory |
 | `CORPUS.md` | Full Minecraft problem-space atlas |
 | `ECOSYSTEM_MAP.md` | OmniFix FC/D projection |

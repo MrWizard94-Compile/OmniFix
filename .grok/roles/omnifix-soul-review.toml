@@ -1,3 +1,0 @@
-description = "SOUL compliance reviewer (read-only)"
-default_capability_mode = "read-only"
-reasoning_effort = "high"

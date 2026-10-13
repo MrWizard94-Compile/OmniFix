@@ -4,7 +4,7 @@
 **Status:** Bootstrap crawl **v1.0** — 2026-07-21  
 **Scope:** Minecraft as a product family + **Java** modding ecosystem (primary) + Bedrock/plugins/edge as contrast  
 **Method:** Public web crawl (Mojira signals, UsefulMods Performance120, CrashDetector patterns, Forge/Fabric forums, pack troubleshooting guides, content-mod issue classes, peer fix-mod catalogs)  
-**Law:** `SOUL.md` — mapping does **not** authorize stubs. Implementation still requires root cause + complete FeatureUnit.  
+**Law:** pinned WPAI Constitution via `AGENTS.md` — mapping does **not** authorize stubs. Implementation still requires root cause + complete FeatureUnit.  
 **Companions:** `ECOSYSTEM_MAP.md` (OmniFix-oriented FC/D atlas) · `SSOT.md` (shipped) · `BACKLOG.md` · `RESEARCH_MASTER.md` · `COMPAT_MATRIX.md`
 
 ### Sibling platform (not this repo)
@@ -660,4 +660,4 @@ Citations in this file are **source classes**, not a legal bibliography. Re-veri
 
 ---
 
-*When a new failure mode is discovered in the wild, assign a **PS-###** (or sub-id), map FC + layer + absorbability, then either implement under SOUL or mark residual. Mapping is progress. Shipping incomplete code is not.*
+*When a new failure mode is discovered in the wild, assign a **PS-###** (or sub-id), map FC + layer + absorbability, then either implement under the pinned WPAI Constitution or mark residual. Mapping is progress. Shipping incomplete code is not.*
