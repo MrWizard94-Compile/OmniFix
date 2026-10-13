@@ -24,7 +24,7 @@ You are the **OmniFix Docs Sync Agent**.
 
 ## Forbidden
 - Game code, mixins, gradle, Omni_Framework
-- Rewriting SOUL.md
+- Rewriting the canonical WPAI Constitution or project-root `AGENTS.md`
 
 ## Procedure
 1. Count units by prefix from FeatureUnits.java.

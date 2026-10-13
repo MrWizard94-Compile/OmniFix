@@ -1,7 +1,7 @@
 # OmniFix — Forge 1.20.1 Ecosystem Problem-Space Map
 
 **Role:** Living atlas of *what can go wrong* in the Forge 1.20.1 mod ecosystem and how OmniFix classifies, absorbs, or defers it.  
-**Law:** `SOUL.md` — symptom → root cause → complete gated FeatureUnit. No stubs. Peer mods are catalogs, not fences.  
+**Law:** pinned WPAI Constitution via `AGENTS.md` — symptom → root cause → complete gated FeatureUnit. No stubs. Peer mods are catalogs, not fences.  
 **Companion docs:** `CORPUS.md` (**entire** Minecraft + modding problem-space atlas) · `SSOT.md` (shipped inventory + architecture) · `BACKLOG.md` (status matrix) · `RESEARCH_MASTER.md` (intake pipeline) · `COMPAT_MATRIX.md` (coexistence).
 
 > OmniFix-specific FC/D tables live here. The **global** map of Minecraft as a product + all loaders/content/ops is in **`CORPUS.md`**.
@@ -114,7 +114,7 @@
 | **Root-caused** | Exact method/field contract known on 1.20.1 Forge |
 | **Shipped** | FeatureUnit + mixin/helper + gate + SSOT row |
 | **Coexist** | Skip when peer present |
-| **Residual** | Explicitly not shipped with SOUL reason |
+| **Residual** | Explicitly not shipped with a Constitution-based reason |
 | **Watch** | Needs pack repro / version pin before root cause |
 
 **North star metrics (living):**
@@ -133,7 +133,7 @@
 
 1. **Weekly:** Mojira still-open 1.20.1 · MF/ATL/Debugify releases · Create/VS/IP/Embeddium issues.  
 2. **Pack signal:** ATM / Better MC / Cobblemon crash labels · Crash Assistant patterns · user logs.  
-3. **Gate for new unit:** FC code + domain + root cause snippet + coexistence plan + SOUL completeness.  
+3. **Gate for new unit:** FC code + domain + root cause snippet + coexistence plan + Constitution completeness.  
 4. **Reject:** FPS cargo-cult, ARR paste, unresearched bulk ports, mega-system stubs.
 
 ---
@@ -152,7 +152,7 @@
 
 | Doc | Owns |
 |---|---|
-| `SOUL.md` | Immutable delivery law |
+| `AGENTS.md` | Project pointer to pinned WPAI Constitution |
 | `CORPUS.md` | **Entire** Minecraft + modding problem space (global) |
 | `SSOT.md` | Architecture + full shipped catalog |
 | `BACKLOG.md` | Row-level status |

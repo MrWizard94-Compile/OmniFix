@@ -4,7 +4,7 @@
 **Product:** **The fix/performance mod to end all fix mods** — universal root-caused sink for the entire Forge 1.20.1 ecosystem (MF / Debugify / ATL / Connectivity / GPU / pack seams)  
 **Artifact:** `omnifix-forge/build/libs/omnifix-0.1.0-alpha.jar`  
 **Config:** `config/omnifix-features.properties`  
-**Law:** `SOUL.md` · **Matrix:** `BACKLOG.md` · **Research:** `RESEARCH_MASTER.md` · **Ecosystem map:** `ECOSYSTEM_MAP.md` · **Full corpus:** `CORPUS.md` · **Compat notes:** `COMPAT_MATRIX.md`
+**Law:** pinned WPAI Constitution via `AGENTS.md` · **Matrix:** `BACKLOG.md` · **Research:** `RESEARCH_MASTER.md` · **Ecosystem map:** `ECOSYSTEM_MAP.md` · **Full corpus:** `CORPUS.md` · **Compat notes:** `COMPAT_MATRIX.md`
 
 ### Coding agents
 
@@ -22,7 +22,7 @@ Spawn with `subagent_type` e.g. `omnifix-feature-unit`, `omnifix-mixin-only`, `o
 
 **Shipped FeatureUnits: 367** (authoritative count from `FeatureUnits.java` · 367 `register()` calls)
 
-This document is the **merged inventory + architectural breakdown**. When `FeatureUnits.java` changes, update §6 counts and residual notes in the same change. `SOUL.md` remains immutable law; this file is the living product SSOT.
+This document is the **merged inventory + architectural breakdown**. When `FeatureUnits.java` changes, update §6 counts and residual notes in the same change. The pinned WPAI Constitution is binding quality law; this file is the living product SSOT.
 
 ---
 
@@ -39,7 +39,7 @@ This document is the **merged inventory + architectural breakdown**. When `Featu
 9. [Absorb targets (fix/util constellation)](#9-absorb-targets-fixutil-constellation)
 10. [Domains D1–D8 & research bands](#10-domains-d1d8--research-bands)
 11. [Research pipeline](#11-research-pipeline)
-12. [Terminal residual (SOUL: no stubs)](#12-terminal-residual-soul-no-stubs)
+12. [Terminal residual (Constitution: no stubs)](#12-terminal-residual-constitution-no-stubs)
 13. [Completion law](#13-completion-law)
 14. [Commands & diagnostics](#14-commands--diagnostics)
 15. [Document history](#15-document-history)
@@ -70,7 +70,7 @@ It is **not**:
 - A content mod
 - A renderer replacement (Embeddium/Oculus stay peers)
 - A hard dependency on VS / IP / Create / MF
-- A place for stubs, ARR copies, or incomplete ports (SOUL)
+- A place for stubs, ARR copies, or incomplete ports (WPAI Constitution)
 
 **Identity (from build):**
 
@@ -97,7 +97,7 @@ OmniFix/
 ├── ModernFix/               # Reference tree (not a runtime dependency)
 ├── _reference/              # Immersive Portals / VS source refs
 ├── libs/                    # Shade/compile jars (MixinExtras, MixinSquared, Ponder, vs-api)
-├── SOUL.md                  # Immutable constitution
+├── AGENTS.md                # Project pointer to pinned WPAI Constitution
 ├── SSOT.md                  # This file — product SSOT
 ├── BACKLOG.md               # Living status matrix
 ├── RESEARCH_MASTER.md       # Research pipeline & notes
@@ -766,7 +766,7 @@ TOTAL       367
 
 ### 8.2 Philosophy
 
-- **Inclusion is independent of peer presence** (SOUL: peers do not block shipping).
+- **Inclusion is independent of peer presence** (WPAI Constitution: peers do not block shipping).
 - **Application is coexistence-aware** (skip double-apply to avoid double-mixin / double-patch crashes).
 - Players may force-enable via config only where the unit remains registered; mixin plugin still enforces peer skips for safety on overlapping ports.
 
@@ -825,7 +825,7 @@ Detailed notes: `RESEARCH_MASTER.md`. Status matrix: `BACKLOG.md`.
 
 ---
 
-## 12. Terminal residual (SOUL: no stubs)
+## 12. Terminal residual (Constitution: no stubs)
 
 **Shipped mandate complete for every item with a proven, reimplementable root cause on Forge 1.20.1.**  
 Below is the permanent residual set — not incomplete code, but items blocked by missing contract, ARR, mega-system scope, or deliberate deferral.
@@ -882,7 +882,7 @@ OmniFix 1.20.1 is **feature-complete for every root-caused, reimplementable, non
 
 Further units require: new Mojira/mod crash evidence, pack repro for seams, licensed third-party design docs, or deliberate opt-in mega-systems (dynamic resources).
 
-**SOUL invariants apply:** no stubs, no unresearched copies, documentation synchronized with `FeatureUnits.java`.
+**WPAI Constitution invariants apply:** no stubs, no unresearched copies, documentation synchronized with `FeatureUnits.java`.
 
 ---
 
